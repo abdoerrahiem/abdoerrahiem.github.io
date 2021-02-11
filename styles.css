@@ -35,7 +35,7 @@ body {
   border: 2px solid var(--primary);
   color: var(--primary);
   font-family: 'Bad Script', cursive;
-  padding: 5px 40px;
+  padding: 2px 30px;
   border-radius: 50px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
   cursor: pointer;
@@ -90,7 +90,7 @@ h4 {
 }
 
 .leading {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 /* Mobile Styles */
@@ -142,6 +142,10 @@ h4 {
 
 .welcome-text h2 {
   font-family: 'Bad Script', cursive;
+  font-size: 1.3em;
+  text-align: center;
+  border-bottom: 0.2px solid #fff;
+  padding-bottom: 10px;
 }
 
 .welcome-img {
@@ -181,8 +185,12 @@ h4 {
 }
 
 #portfolio h3 {
-  margin-bottom: 0;
+  font-family: 'Bad Script', cursive;
   text-align: center;
+  border-bottom: 0.2px solid #fff;
+  padding-bottom: 5px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .projects a {
@@ -208,6 +216,13 @@ h4 {
 
 #skills h3 {
   text-align: center;
+  font-family: 'Bad Script', cursive;
+  border-bottom: 0.2px solid #fff;
+  padding-bottom: 5px;
+}
+
+#skills h4 {
+  font-size: 1em;
 }
 
 #skills ul {
@@ -235,6 +250,13 @@ h4 {
 #contact p {
   text-align: center;
   margin-bottom: 0;
+}
+
+#contact h3 {
+  font-family: 'Bad Script', cursive;
+  border-bottom: 0.2px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #contact form {
