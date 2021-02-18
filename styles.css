@@ -26,6 +26,7 @@ body {
   color: #000;
   position: relative;
   z-index: 1;
+  overflow-x: hidden;
 }
 
 h1,
@@ -124,6 +125,7 @@ li {
 .logo h1 {
   font-size: 2.5rem;
   color: #fff;
+  text-shadow: 1px 1px 2px #fff;
 }
 
 .logo h1 span {
@@ -240,6 +242,7 @@ li {
   top: 50%;
   transform: translate(25%, -50%);
   color: #fff;
+  width: 100%;
 }
 
 .hero h3 {
@@ -315,13 +318,14 @@ li {
   margin-right: 1rem;
 }
 
-.icons span {
+.icons span a {
   font-size: 2rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
+  color: #fff;
 }
 
-.icons span:hover {
+.icons span a:hover {
   color: var(--primary);
 }
 
@@ -373,8 +377,8 @@ li {
 }
 
 .left img {
-  height: 40rem;
-  max-width: 40rem;
+  height: 30rem;
+  max-width: 30rem;
   object-fit: cover;
 }
 
@@ -428,7 +432,8 @@ a.btn:active {
   }
 
   .left img {
-    height: 40rem;
+    height: 10rem;
+    width: 100%;
     max-width: 25rem;
   }
 }
